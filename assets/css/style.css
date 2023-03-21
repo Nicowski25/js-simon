@@ -6,10 +6,12 @@
 
 header {
     background-color: #D95D39;
+    height: 10%;
 }
 
 main {
     background-color: #F18805;
+    height: 80vh;
 }
 
 .number {
@@ -25,4 +27,8 @@ main {
 
 .d-none {
     display: none;
+}
+
+footer {
+    height: 10%;
 }
