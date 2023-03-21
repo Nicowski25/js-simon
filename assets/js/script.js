@@ -48,9 +48,9 @@ function checkIfEqual(firstArray, secondArray) {
         }
         i++
     }
-    console.log(`hai indovinato ${x} numeri`);
+    console.log(`Numeri indovinati: ${x}`);
     console.log(`hai sbagliato ${y} volte`);
-    numberVisualizer.innerHTML += `hai indovinato ${x} numeri`
+    numberVisualizer.innerHTML += `Hai indovinato ${x} numeri!`
 }
 
 //prendo dalla DOM il bottone di start
