@@ -16,7 +16,17 @@ function random(array) {
 const startButton = document.getElementById('start')
 //al click del bottone creo i 5 numeri random
 startButton.addEventListener('click', function() {
-    random(randomNumbers)
+    random(randomNumbers);
     console.log(randomNumbers);
+    displayNone('.number');
 })
+
+//creo la funzione che inserisce la classe d-none
+function displayNone(queryName) {
+    let numbers = document.querySelectorAll(queryName)
+    console.log(numbers);
+    for(var i = 0; i < numbers.length; i++) {
+        numbers[i].classList.add('d-none');
+    }
+}
 
