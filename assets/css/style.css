@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.number {
+    width: calc(100% / 5);
+    aspect-ratio: 1/1;
+    margin: 1rem;
+    font-size: xx-large;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
