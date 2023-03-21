@@ -17,6 +17,6 @@ const startButton = document.getElementById('start')
 //al click del bottone creo i 5 numeri random
 startButton.addEventListener('click', function() {
     random(randomNumbers)
+    console.log(randomNumbers);
 })
-console.log(randomNumbers);
 
